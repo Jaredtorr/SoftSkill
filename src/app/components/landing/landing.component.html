@@ -1,0 +1,56 @@
+<div class="landing-bg">
+  <div class="overlay"></div>
+
+  <!-- Header -->
+  <header class="landing-header">
+    <h2 class="brand">SoftSkill Tech</h2>
+
+    <nav>
+      <a routerLink="/" class="nav-link">Inicio</a>
+      <a routerLink="/home" class="nav-link">Entrar</a>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-left">
+      <h1 class="hero-title">
+        Tecnologías de <span class="accent">Programación</span>
+      </h1>
+
+      <p class="hero-sub">
+        Frameworks modernos, animaciones, parallax y efectos avanzados con Angular + GSAP.
+      </p>
+
+      <button routerLink="/home" class="btn-enter">Comenzar</button>
+    </div>
+
+    <!-- Logo flotante -->
+    <div class="hero-right">
+      <div #logo class="angular-logo">
+        <svg viewBox="0 0 256 256" class="angular-svg">
+          <polygon points="128 12 244 64 220 212 128 244 36 212 12 64" fill="#DD0031"/>
+          <path d="M128 68 L96 176 L128 176 L160 68 Z" fill="#fff" opacity="0.9"></path>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tecnologías -->
+  <section #techs class="techs">
+    <h2 class="section-title">Tecnologías Destacadas</h2>
+    <div class="tech-grid">
+      <div class="tech-card">Angular</div>
+      <div class="tech-card">React</div>
+      <div class="tech-card">Node.js</div>
+      <div class="tech-card">Python</div>
+      <div class="tech-card">Docker</div>
+      <div class="tech-card">Java</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="landing-footer">
+    © 2025 SoftSkill Tech — Landing tecnológica con Angular y GSAP
+  </footer>
+</div>

@@ -1,0 +1,46 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #0d0d0d, #1a1a1a);
+    padding: 18px 30px;
+    color: white;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.nav {
+    display: flex;
+    gap: 25px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #aaaaaa;
+    font-size: 16px;
+    transition: 0.3s;
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.nav a:hover {
+    color: #ffffff;
+}
+
+.nav a:hover::after,
+.nav a.actuve::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 3px;
+}
